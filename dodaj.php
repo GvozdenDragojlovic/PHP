@@ -55,11 +55,12 @@ if(isset($_POST['dodaj'])){
     </nav>
 
     <div id="lineH"></div>
+    <center><div><img src="img/logo2.png" id="logo"></div></center>
 
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h3 class="text-primary"><?= $poruka; ?></h3>
+                <h3 id="por"><?= $poruka; ?></h3>
             </div>
             <div class="row">
                 <form method="post" action="">
@@ -89,7 +90,8 @@ if(isset($_POST['dodaj'])){
 
         </div>
     </div>
-    <div id = "razmak"></div>
+    <div><img id="android2" src="img/and.png"></div>
+    <div id="lineH"></div>
     <div id = "footer"></div>
 
 

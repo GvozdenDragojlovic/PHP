@@ -29,11 +29,13 @@
     </nav>
 
     <div id="lineH"></div>
+    <center><div><img src="img/logo2.png" id="logo2"></div></center>
 
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-5 mb-4">Ponuda</h1>
+            
+                
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -65,7 +67,9 @@
             </div>
         </div>
     </div>
-    <div id = "razmak"></div>
+    
+    <div><img id="android" src="img/and.png"></div>
+    <div id="lineH"></div>
     <div id = "footer"></div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

@@ -7,9 +7,9 @@ if(isset($_POST['obrisi'])){
     $telefon = trim($_POST['telefon']);
 
     if($db->obrisi($telefon)){
-        $poruka = "Uspesno obrisan telefon";
+        $poruka = "Uspesno obrisan uredjaj";
     }else{
-        $poruka = "Neuspesno obrisan telefon";
+        $poruka = "Neuspesno obrisan uredjaj";
     }
 
 }
@@ -51,14 +51,15 @@ $telefoni = $db->pretrazi("SVE", 'asc');
     </nav>
 
     <div id="lineH"></div>
+    <center><div><img src="img/logo2.png" id="logo"></div></center>
 
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h3 class="text-primary"><?= $poruka; ?></h3>
+            <h3 id="por"><?= $poruka; ?></h3>
             </div>
             <div class="row">
-                <form method="post" action="">
+                <form method="post" action="" style="margin-top: 50px;">
                     <label for="telefon">Telefon</label>
                     <select id="telefon" name="telefon" class="form-control">
                         <?php
@@ -75,11 +76,11 @@ $telefoni = $db->pretrazi("SVE", 'asc');
                 </form>
             </div>
             <br/>
-            <br/>
 
         </div>
     </div>
-    <div id = "razmak"></div>
+    <div><img id="android4" src="img/and.png"></div>
+    <div id="lineH"></div>
     <div id = "footer"></div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

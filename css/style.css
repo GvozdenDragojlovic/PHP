@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #aaadb3;
+    background-color: #e0e0e0;
 }
 
 h1,
@@ -14,7 +14,7 @@ h2,
 .h2,
 .fw-bold {
     font-weight: 600 !important;
-    color:var(--light) !important;
+    color:var(--dark) !important;
 }
 
 h3,
@@ -23,7 +23,7 @@ h4,
 .h4,
 .fw-medium {
     font-weight: 500 !important;
-    color:var(--light) !important;
+    color:var(--dark) !important;
 }
 
 h5,
@@ -111,12 +111,12 @@ h6,
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
-    background-image: url(../img/footer.jpg);
+    background-image: url(../img/f3.png);
 }
 
 #lineH{
     background-color: orange;
-    height: 15px;
+    height: 5px;
 }
 
 
@@ -213,41 +213,44 @@ h6,
 }
 
 #tel1{
-    color:#252525 !important;
+    color:#494949 !important;
 }
 
 #tel2{
-    color: orange !important;
+    color: rgb(41, 55, 91) !important;
     font-size: 40px;
 
 }
 
 #tel3{
     color: orange !important;
-    font-size: 25px;
+    font-weight: 300 !important;
+    font-size: 30px;
     margin-top: 20px;
 }
 
 .BtnForm{
-    background-color: orange;
+    background-color: rgb(244, 178, 56);
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
-    border: 2px solid #000000;
-    color: var(--light)
+    font-weight: 500;
+    border: 2px solid rgb(244, 178, 56);
+    color: rgb(65, 65, 65);
 }
 
 .BtnFormP{
-    background-color: orange;
+    background-color: rgb(244, 178, 56);
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
-    border: 2px solid #000000;
-    color: var(--light)
+    font-weight: 500;
+    border: 1px double rgb(244, 178, 56);
+    color: rgb(65, 65, 65);
 }
 
 #razmak{
@@ -255,9 +258,60 @@ h6,
 }
 
 #footer{
-    background-image: url(../img/footer.jpg);
+    background-image: url(../img/f3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    
+    height: 120px;
+}
+
+#logo{
+    width: 150px;
+    height: 120px;
+    border-bottom: 2px solid #bbbbbb;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    
+}
+
+#logo2{
+    width: 150px;
+    height: 120px;
+    border-bottom: 2px solid #bbbbbb;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#por{
+    color: rgb(244, 178, 56) !important;
+}
+
+#android2{
+    width: 240px;
+    height: 170px;
+    margin-left: 1200px;
+    margin-top: -150px;
+}
+
+#android{
+    width: 240px;
+    height: 170px;
+    margin-left: 1200px;
+    margin-top: -5px;
+}
+
+#android3{
+    width: 240px;
+    height: 170px;
+    margin-left: 1200px;
+    margin-top: -80px;
+}
+
+#android4{
+    width: 240px;
+    height: 170px;
+    margin-left: 1200px;
+    margin-top: -30px;
 }
